@@ -1,4 +1,4 @@
-# agritech
+# AgriTech - USGS LIDAR Challenge
 
 ### Background
 This project uses elevation data as lidar point cloud and is
