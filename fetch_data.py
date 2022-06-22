@@ -1,8 +1,7 @@
 import numpy as np
 import pylas
 
-with pylas.open('C:/Windows/System32/ept-data/3-0-1-3.laz')
-    as fh:
+with pylas.open('C:/Windows/System32/ept-data/3-0-1-3.laz') as fh:
     print('Points from Header:', fh.header.point_count)
     las = fh.read()
     print(las)
